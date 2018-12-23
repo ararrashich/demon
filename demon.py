@@ -1,5 +1,5 @@
 import telepot, time, subprocess
-
+$ heroku buildpacks:set heroku/python
 
 def handle(msg):
     content_type, chat_type, chat_id = telepot.glance(msg)
